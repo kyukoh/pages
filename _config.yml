@@ -1,11 +1,12 @@
-title: Advanced Jekyll
-url: "https://<ユーザー名>.github.io"
-baseurl: "/my-jekyll-site"   # プロジェクトサイトの場合
+title: Github Pages実験
 theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  # 好きなプラグインを追加可
+
+# ここを実ユーザー名に
+url: "https://kyukoh.github.io"
+# リポジトリが 'pages' なので
+baseurl: "/pages"
 
